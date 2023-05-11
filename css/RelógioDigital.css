@@ -10,7 +10,7 @@
 
 body{
     height: 100vh;
-    background-image: url('/img/1369788-brilhando-espacoso-azul-3d-ilustracao-fundo-gratis-foto.jpg');
+    background-image: url('../img/1369788-brilhando-espacoso-azul-3d-ilustracao-fundo-gratis-foto.jpg');
     background-size: cover;
     display: flex;
     align-items: center;
