@@ -2,7 +2,6 @@ const horas = window.document.getElementById('horas')
 const minutos = window.document.getElementById('minutos')
 const segundos = window.document.getElementById('segundos')
 const dataDia = window.document.getElementById('dia')
-const corpo = window.document.getElementsByClassName('relogio')
 
 const relogio = setInterval(function time(){
     let dateToday = new Date();
@@ -20,7 +19,7 @@ const relogio = setInterval(function time(){
     horas.textContent = hr;
     minutos.textContent = min;
     segundos.textContent = seg;
-    dataDia.textContent = `${dia}/${mes}/${ano}`
+    dataDia.textContent = `${dia}/${mes+1}/${ano}`
 })
 
 
